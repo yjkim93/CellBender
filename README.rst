@@ -1,11 +1,10 @@
 CellBender Downstream Analysis
-==============================
-This repository contains standalone Python code for downstream analysis of CellBender output—without requiring the full CellBender environment.
 
-The official CellBender downstream module (cellbender.remove_background.downstream) has strict dependency requirements (e.g., nbconvert < 7.0), which can conflict with some Python environments.
-To avoid this issue, the key downstream functions have been extracted and packaged here for easier use.
+This repository contains standalone Python code (extracted from the original CellBender repository) for performing downstream analysis on CellBender output.
 
-Original CellBender Project
+The official downstream module (`cellbender.remove_background.downstream`) has strict dependency requirements (e.g., nbconvert < 7.0) that may conflict with some Python environments. To avoid these issues, the relevant downstream functions have been isolated and packaged here for easier use.
 
-Full pipeline, documentation, and development can be found here:
+Original CellBender Repository
+
+Full pipeline, documentation, and ongoing development are available at:
 https://github.com/broadinstitute/CellBender
